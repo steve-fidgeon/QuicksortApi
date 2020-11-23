@@ -8,7 +8,7 @@ import java.util.List;
  * @author steve
  *
  */
-public class sumList {
+public class SumList {
 	
 	/** Add the elements of a list together andreturn the total.
 	 * @param elements
@@ -26,7 +26,7 @@ public class sumList {
 	 */
 	public static void main(String[] args) {
 		//Sorry, no proper test just this
-		System.out.println(sumList.sumList(new ArrayList<Integer>(Arrays.asList(2,4,6,8,1,3,5,7,9))));
+		System.out.println(SumList.sumList(new ArrayList<Integer>(Arrays.asList(2,4,6,8,1,3,5,7,9))));
 	}
 
 }

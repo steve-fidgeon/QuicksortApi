@@ -15,4 +15,12 @@ public class ListResult {
 		this.sortedList = sortedList;
 		this.listTotal = listTotal;
 	}
+
+	public List<Integer> getSortedList() {
+		return sortedList;
+	}
+
+	public Integer getListTotal() {
+		return listTotal;
+	}
 }

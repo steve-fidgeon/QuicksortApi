@@ -10,7 +10,7 @@ import java.util.stream.Stream;
  * @author steve
  *
  */
-public class quickSort {
+public class QuickSort {
 
 	/** Sort a List of Integers.
 	 * @param elements
@@ -33,7 +33,7 @@ public class quickSort {
 	 */
 	public static void main(String[] args) {
 		//Quick and really horrible unit test
-		System.out.println(quickSort.quickSort(new ArrayList<Integer>(Arrays.asList(2,4,6,8,1,3,5,7,9))));
+		System.out.println(QuickSort.quickSort(new ArrayList<Integer>(Arrays.asList(2,4,6,8,1,3,5,7,9))));
 	}
 
 }
